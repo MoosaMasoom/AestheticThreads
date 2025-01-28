@@ -93,6 +93,19 @@ nav a {
   max-width: 100%;
   border-radius: 10px;
 }
+[Uploading s// Example: Add hover effect to product cards
+const productCards = document.querySelectorAll('.product-card');
+
+productCards.forEach(card => {
+  card.addEventListener('mouseover', () => {
+    card.style.transform = 'scale(1.05)';
+    card.style.transition = 'transform 0.3s ease';
+  });
+
+  card.addEventListener('mouseout', () => {
+    card.style.transform = 'scale(1)';
+  });
+});cript.js…]()
 
 .about, .contact {
   padding: 40px 20px;
@@ -105,3 +118,16 @@ footer {
   background-color: #333;
   color: #fff;
 }
+[Uploa// Example: Add hover effect to product cards
+const productCards = document.querySelectorAll('.product-card');
+
+productCards.forEach(card => {
+  card.addEventListener('mouseover', () => {
+    card.style.transform = 'scale(1.05)';
+    card.style.transition = 'transform 0.3s ease';
+  });
+
+  card.addEventListener('mouseout', () => {
+    card.style.transform = 'scale(1)';
+  });
+});ding script.js…]()
